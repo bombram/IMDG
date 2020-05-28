@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>IMDG.edi</file>
+        <file>IMDG test cargo.cxml</file>
+    </qresource>
+</RCC>
