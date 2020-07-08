@@ -21,7 +21,7 @@ MainWindow::~MainWindow()
 {
 
     delete containers;
-    delete containersCopy;
+    //delete containersCopy;
     delete newImdgUnit;
     delete ui;
 
