@@ -29,6 +29,7 @@ public:
     QString getDagoEID() const;
     QString getDagoUNNo() const;
     QList<QString> getImdgUnitData() const;
+    QList<QString> getData() const ;
     QString getDataToString()const;
     int getIndexOnTag(TAGNAME tag) const;
     int getListIndexOnTag(TAGNAME tag) const;
@@ -44,11 +45,11 @@ public:
     void removeAllItems();
 
     bool isImdgUnitEmpty() const;
-    bool isWeightTagExists() const;
+    bool isTagExists() const;
     int insertValueIntoUnit(QString unitFullLine, TAGNAME whereTagIs);
     int inserValueIntoUnit(QString untiFullLine);
-    bool addWeightToIMDGunit(QVector<IMDGunit> &newUnits, Container &dataToInsert,
-                                        int unnoCounter, bool isNextUnitDifferent);
+    bool addWeightToIMDGunit(QList<IMDGunit> &newUnits, Container &dataToInsert,
+                                        bool isNextUnitDifferent, QString &textDebug);
 
 
     QString packingGroupToNumber(QString packingGroup);

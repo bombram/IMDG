@@ -55,6 +55,10 @@ QString XmlTag::makeTagValueString(TAGNAME tag, QString value){
 
 }
 
+int XmlTag::createListTagsValues(TAGNAME[]){
+
+
+}
 
 //QList<QString> XmlTag::createList(QVector<QString> dataToInsert, TAGNAME from, TAGNAME to){
 
@@ -71,9 +75,9 @@ QString XmlTag::makeTagValueString(TAGNAME tag, QString value){
 
 //    return tempList;
 
+
+
 //}
-
-
 
 
 

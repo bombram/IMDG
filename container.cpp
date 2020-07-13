@@ -153,15 +153,6 @@ void Container::removeAllItems(){
 
 }
 
-void Container::removeAllItems(int from , int to){
-
-    for (int index = from; index <= to;  ++index ){
-        containerData.remove(index);
-    }
-
-}
-
-
 
 QString Container::getContainerIdNumber()const{
     return containerData.at(IdNumber);

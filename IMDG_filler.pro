@@ -18,7 +18,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     container.cpp \
     containerhandlerdialog.cpp \
-    helpwindow.cpp \
     imdgunit.cpp \
     imdgunithandlerdialog.cpp \
     main.cpp \
@@ -28,7 +27,6 @@ SOURCES += \
 HEADERS += \
     container.h \
     containerhandlerdialog.h \
-    helpwindow.h \
     imdgunit.h \
     imdgunithandlerdialog.h \
     mainwindow.h \
@@ -36,7 +34,6 @@ HEADERS += \
 
 FORMS += \
     containerhandlerdialog.ui \
-    helpwindow.ui \
     imdgunithandlerdialog.ui \
     mainwindow.ui
 
@@ -50,18 +47,11 @@ RESOURCES +=
 
 DISTFILES += \
     tests/IMDG DEBRV no weight.cxml \
-    tests/IMDG DEBRV no weight.cxml \
-    tests/IMDG DEBRV only.txt \
     tests/IMDG DEBRV only.txt \
     tests/IMDG MXATM only.cxml \
-    tests/IMDG MXATM only.cxml \
-    tests/IMDG Manifest Rotterdam.txt \
     tests/IMDG Manifest Rotterdam.txt \
     tests/IMDG Rotterdam.cxml \
-    tests/IMDG Rotterdam.cxml \
     tests/IMDG only DEBRV.cxml \
-    tests/IMDG only DEBRV.cxml \
-    tests/IMDG test cargo.cxml \
     tests/IMDG test cargo.cxml \
     tests/IMDG.edi \
     tests/MXATM.txt

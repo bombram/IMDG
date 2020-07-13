@@ -10,6 +10,7 @@
 static QList<IMDGunit*>             imdgUnitsDialogDataCopy;
 
 namespace Ui {
+
 class ImdgUnitHandlerDialog;
 }
 

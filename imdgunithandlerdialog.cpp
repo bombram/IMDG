@@ -13,6 +13,8 @@ ImdgUnitHandlerDialog::ImdgUnitHandlerDialog(QWidget *parent) :
 ImdgUnitHandlerDialog::~ImdgUnitHandlerDialog()
 {
     delete ui;
+    ui->listWidget->clear();
+    imdgUnitsDialogDataCopy.clear();
 }
 
 

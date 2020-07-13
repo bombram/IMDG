@@ -103,6 +103,11 @@ QList<QString> IMDGunit::getImdgUnitData() const{
     return imdgUnitData;
 }
 
+QList<QString> IMDGunit::getData() const{
+
+    return imdgUnitData;
+
+}
 QString IMDGunit::getDataToString() const{
     QString stringData;
 
@@ -187,7 +192,7 @@ bool IMDGunit::isImdgUnitEmpty() const{
 }
 
 
-bool IMDGunit::isWeightTagExists() const{
+bool IMDGunit::isTagExists() const{
 
     for (int index = 0; index < imdgUnitData.size(); ++index){
         if (imdgUnitData.at(index).contains(xmlTags.getTagOpened(NetWeight))){
@@ -201,10 +206,8 @@ bool IMDGunit::isWeightTagExists() const{
 
 
 
-
-
-bool IMDGunit::addWeightToIMDGunit(QVector<IMDGunit> &newUnits,  Container &containerDataToInsert,
-                                      int unnoCounterRcvd,  bool isNextUnitDifferent){
+bool IMDGunit::addWeightToIMDGunit(QList<IMDGunit> &newUnits,  Container &containerDataToInsert,
+                                      bool isNextUnitDifferent,  QString &textDebug){
 
 
 
@@ -212,160 +215,174 @@ bool IMDGunit::addWeightToIMDGunit(QVector<IMDGunit> &newUnits,  Container &cont
 
     QString         eid, imdgClass, unnoFound, packingGroup,
                     marpol, limitedQuantity, technicalName;
+
+
+    bool            bugFound = false;
     QList<QString>  imdgNewUnitData;
     IMDGunit        newUnit;
     int             ii = 0;
-    bool            ifUNNoFound = false;
-    int             index = 0;
-    int             classIndex = -1;
-    int             pgIndex = -1;
-    int             netWeightIndex = -1;
-    int             marpolIndex = -1;
-    int             limitedQtyIndex = -1;
-    bool            ok;
-    int             unnoCounter;
-    QString         unnoCounterStr;
-    TAGNAME         tag = UNNo;
-    bool            bugFound = false;
+
+
+
+
+    bool ifUNNoFound = false;
+    int index = 0;
+    int classIndex = -1;
+    int pgIndex = -1;
+    int netWeightIndex = -1;
+    int marpolIndex = -1;
+    int limitedQtyIndex = -1;
+    bool ok;
+    int unnoCounter;
+    QString unnoCounterStr;
+    TAGNAME tag = UNNo;
 
     unnoFound = getUnitValueOnTag(UNNo);
     eid = getUnitValueOnTag(EID);
+    qDebug()<<"Inside imdg unit.cpp";
+
+
 
     QString dagoId,dagoIdTemp;
     //get DagoID from container
     dagoIdTemp = getUnitValueOnTag(DagoID);//get DagoID form container
     dagoIdTemp = dagoIdTemp.mid(0, dagoIdTemp.length() - 3);
+   // textDebug.append("EID= " + eid + "UNNo = " + unnoFound );
+
+
+        while ( !ifUNNoFound
+                &&
+                (!containerDataToInsert.getValueOnIndex(index).contains("</Dago>")) ){
 
 
 
-    while ( !ifUNNoFound && (!containerDataToInsert.getValueOnIndex(index).contains("</Dago>")) ){
-        if (containerDataToInsert.getValueOnIndex(index).contains(unnoFound)){
-            classIndex = getListIndexOnTag(Class);
-            pgIndex = getListIndexOnTag(PackingGroup);
-            netWeightIndex = getListIndexOnTag(NetWeight);
-            marpolIndex = getListIndexOnTag(MarPol);
-            limitedQtyIndex = getListIndexOnTag(LimitedQuantity);
-
-            if (netWeightIndex > -1){
-                setValueOnIndex(netWeightIndex,
-                                xmlTags.makeTagValueString(
-                                      NetWeight, containerDataToInsert.getValueOnIndex(index + 3)
-                                ));
+            if (containerDataToInsert.getValueOnIndex(index).contains(unnoFound)){
 
 
-            }else{
-                setValueOnIndex(marpolIndex - 1,
-                                xmlTags.makeTagValueString(
-                                      NetWeight, containerDataToInsert.getValueOnIndex(index + 3)
-                                ));
-
-            }
+                classIndex = getListIndexOnTag(Class);
+                pgIndex = getListIndexOnTag(PackingGroup);
+                netWeightIndex = getListIndexOnTag(NetWeight);
+                marpolIndex = getListIndexOnTag(MarPol);
+                limitedQtyIndex = getListIndexOnTag(LimitedQuantity);
 
 
-            setValueOnIndex(marpolIndex, xmlTags.makeTagValueString(
-                                MarPol, containerDataToInsert.getValueOnIndex(index + 4))
+
+                if (netWeightIndex > -1)
+                    setValueOnIndex(netWeightIndex,
+                                    xmlTags.makeTagValueString(
+                                        NetWeight, containerDataToInsert.getValueOnIndex(index + 3)
+                                        ));
+
+                else
+                    setValueOnIndex(marpolIndex - 1,
+                                    xmlTags.makeTagValueString(
+                                        NetWeight, containerDataToInsert.getValueOnIndex(index + 3)
+                                        ));
+
+
+
+                setValueOnIndex(marpolIndex, xmlTags.makeTagValueString(
+                                    MarPol, containerDataToInsert.getValueOnIndex(index + 4))
                                 );
 
 
-            if (limitedQtyIndex > -1){
-                setValueOnIndex(limitedQtyIndex, xmlTags.makeTagValueString(
-                                LimitedQuantity, containerDataToInsert.getValueOnIndex(index + 5))
-                                );
+                if (limitedQtyIndex > -1)
+                    setValueOnIndex(limitedQtyIndex, xmlTags.makeTagValueString(
+                                        LimitedQuantity, containerDataToInsert.getValueOnIndex(index + 5))
+                                    );
+                else
+                    setValueOnIndex(marpolIndex + 1, xmlTags.makeTagValueString(
+                                        LimitedQuantity, containerDataToInsert.getValueOnIndex(index + 5))
+                                    );
 
-            }
-            else{
-                setValueOnIndex(marpolIndex + 1, xmlTags.makeTagValueString(
-                                                LimitedQuantity, containerDataToInsert.getValueOnIndex(index + 5))
-                                 );
 
-           }
-            unnoCounterStr = containerDataToInsert.getValueOnIndex(5);//take unno counter from container unit
-            unnoCounter = unnoCounterStr.toInt(&ok, 10);
-            unnoCounter--;
-            containerDataToInsert.setValueOnIndex(5, QString::number(unnoCounter));
 
-            for (int indexInner = index; indexInner <= index + 5; ++indexInner ){
-                containerDataToInsert.setValueOnIndex(indexInner, "0");
-            }
-            ifUNNoFound = true;
+                containerDataToInsert.setValueOnIndex(index, "0");
+                unnoCounterStr = containerDataToInsert.getValueOnIndex(5);//take unno counter from container unit
+                unnoCounter = unnoCounterStr.toInt(&ok, 10);
+                unnoCounter--;
+                containerDataToInsert.setValueOnIndex(5, QString::number(unnoCounter));
+                ifUNNoFound = true;
 
-            /*
-             *  Unno is not in manifest we do nothing with it  now. It won't be
-             *  written into final cxml file.
-             *
+                /*
+             *  if (!ifUNNoFound)
+             *  UNNo contaning in IMDGUnitis not in the IDMG Manifest
+             *  and this IMDGUnit will be deleted from the list
              */
 
+            }
 
 
+            index ++;
         }
 
-
-        index ++;
-    }
-
+   qDebug()<<"after check unnoFound = " << unnoFound << "and UNcounter=" << unnoCounter;
+    index = 0;
 
    // creating new IMDG units with UNNos taken from Container data(dataToInsert)
-    index = 7;
+    if ( (isNextUnitDifferent) && unnoCounter > 0){
 
-    QRegExp  ifUNNo("[0-9]{4}");
+        QRegExp         ifUNNo("^[0-9]{4}$");
 
-    qDebug()<<"before while"<<"and eid="<<eid;
-    if (isNextUnitDifferent){
+        while ( (unnoCounter > 0) && (!containerDataToInsert.getValueOnIndex(index).contains("</Dago>")) ){
 
-        while ( unnoCounter > 0){
-           // qDebug()<<"before INSIDE" << containerDataToInsert.getValueOnIndex(index) ;
-            if ( (containerDataToInsert.getValueOnIndex(index).contains(ifUNNo))){
-                qDebug()<<"UNNO===========" <<containerDataToInsert.getValueOnIndex(index);
-                //creating new Dago Id using unnoCounter. Every imdg unit has to have Dago ID (for MACS loading Software)
+            if (containerDataToInsert.getValueOnIndex(index).contains(ifUNNo)){
+                unnoFound = containerDataToInsert.getValueOnIndex(index);
+                qDebug()<<"created for UNNO="<<unnoFound<< "and index="<<index;
+                //creating new Dago Id using unnoCounter.
+                //Every imdg unit has to have Dago ID (for MACS loading Software)
                 dagoId = dagoIdTemp;//not to make dagoId longer in the next iterations
-                dagoId.append(QString::number(index) + QString::number(index) + QString::number(index));
+                dagoId.append(QString::number(unnoCounter) + QString::number(unnoCounter) + QString::number(unnoCounter));
 
 
                 //making new Qlist of imdgUnits with minimum fields
 
                 imdgNewUnitData.push_back(xmlTags.makeTagValueString(DagoID, dagoId));
                 imdgNewUnitData.push_back(xmlTags.makeTagValueString
-                                                  (EID, containerDataToInsert.getValueOnIndex(1) + "new")
+                                          (EID, containerDataToInsert.getValueOnIndex(1) + "new")
                                           );
-                 imdgNewUnitData.push_back(xmlTags.makeTagValueString(SubEntry,"0"));
-                 imdgNewUnitData.push_back(xmlTags.makeTagValueString
-                                                  (Class, containerDataToInsert.getValueOnIndex(index + 1))
-                                           );
-                 imdgNewUnitData.push_back(xmlTags.makeTagValueString(UNNo, unnoFound));
-                 imdgNewUnitData.push_back(xmlTags.makeTagValueString(
-                                                   PackingGroup,
-                                                   packingGroupToNumber(containerDataToInsert.getValueOnIndex(index + 2))
-                                                   )
-                                           );
-                 imdgNewUnitData.push_back(xmlTags.makeTagValueString(
-                                                   NetWeight, containerDataToInsert.getValueOnIndex(index + 3))
-                                           );
-                 imdgNewUnitData.push_back(xmlTags.makeTagValueString(
-                                                   MarPol, containerDataToInsert.getValueOnIndex(index + 4))
-                                           );
-                 imdgNewUnitData.push_back(xmlTags.makeTagValueString(
-                                                   LimitedQuantity, containerDataToInsert.getValueOnIndex(index +5))
-                                            );
+                imdgNewUnitData.push_back(xmlTags.makeTagValueString(SubEntry,"0"));
+                imdgNewUnitData.push_back(xmlTags.makeTagValueString
+                                          (Class, containerDataToInsert.getValueOnIndex(index + 1))
+                                          );
+                imdgNewUnitData.push_back(xmlTags.makeTagValueString(UNNo, unnoFound));
+                imdgNewUnitData.push_back(xmlTags.makeTagValueString(
+                                              PackingGroup,
+                                              packingGroupToNumber(containerDataToInsert.getValueOnIndex(index + 2))
+                                              )
+                                          );
+                imdgNewUnitData.push_back(xmlTags.makeTagValueString(
+                                              NetWeight, containerDataToInsert.getValueOnIndex(index + 3))
+                                          );
+                imdgNewUnitData.push_back(xmlTags.makeTagValueString(
+                                              MarPol, containerDataToInsert.getValueOnIndex(index + 4))
+                                          );
+                imdgNewUnitData.push_back(xmlTags.makeTagValueString(
+                                              LimitedQuantity, containerDataToInsert.getValueOnIndex(index +5))
+                                          );
 
 
                 //changing continaer unit
                 unnoCounter--;
                 containerDataToInsert.setValueOnIndex(5, QString::number(unnoCounter));
+                containerDataToInsert.setValueOnIndex(index, "0");
 
                 //creating new imdg unit
                 newUnit.setData(imdgNewUnitData);
                 newUnits.push_back(newUnit);
                 imdgNewUnitData.clear();
-                dagoId.clear();//clear not ot make dagoId longer than it should be
-                qDebug()<<"INSIDE";
+                dagoId.clear();//clear not to make dagoId longer than it should be
+
+
+
+
             }
             index++;
-        }
-    }//end if isNextUnitDifferent
+        }//end of while loop
+    }
 
-
-
-     return ifUNNoFound;
+        qDebug()<<"before exiting>>>>..."<<ifUNNoFound;
+        return ifUNNoFound;
 }
 
 

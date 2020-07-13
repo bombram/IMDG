@@ -10,20 +10,25 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    connect(ui->closeProgram, &QAction::triggered, this, &QCoreApplication::quit);
-    connect(ui->actionIMDGUnitHandler, &QAction::triggered, this,&MainWindow::containerHandler);
-    connect(ui->actionHow_to_use_it, &QAction::triggered, this, &MainWindow::menuHelpHandler);
-
+    connect(ui->closeProgram, &QAction::triggered,this, &QCoreApplication::quit);
+    connect(ui->actionIMDGUnitHandler, &QAction::triggered,this,&MainWindow::containerHandler);
 
 }
 
 MainWindow::~MainWindow()
 {
 
+    for (int index = 0 ; index < imdgUnits.size(); ++index){
+        delete imdgUnits.at(index);
+
+    }
+    qDebug()<<"finishing";
     delete containers;
     delete containersCopy;
     delete newImdgUnit;
     delete ui;
+
+
 
 }
 
@@ -34,12 +39,13 @@ void MainWindow::on_pushButtonOpen_clicked()
 
     clearAllDataRetreived();
 
-    if (loadCxmlFile()){
+    if ( loadCxmlFile() ){
         if ( loadTextFile() ) {
-            //make a copy of containers bofore they are changed to transfer to containerHandler Dialog
 
-           for(int index=0; index < containers->size(); ++index)
+            //make a copy of containers bofore they are changed to transfer to containerHandler Dialog
+           for(int index=0; index < containers->size(); ++index){
                 containersCopy->push_back(containers->at(index));
+           }
 
            fillIMDGUnits();
            updateCounters();
@@ -65,12 +71,12 @@ void MainWindow::on_pushButtonOpen_clicked()
 
 void MainWindow::on_pushButtonBrowse_clicked(){
 
-    QString fileName = QFileDialog::getOpenFileName(this, "Open File","","*.cxml");
+
+    QString fileName = QFileDialog::getOpenFileName(this,"Open File","","*.cxml");
     ui->cxmlFileLine->setText(fileName);
-    QString fileNameOnly = fileName.section("/", -1);
-    int fileNameIndex = fileName.indexOf(fileNameOnly);
-    QString newFileName = fileName.left(fileNameIndex) + "Filled_" + fileNameOnly;
-    ui->newCXMLFileLine->setText(newFileName);
+    QString newFileName  = "New_" + fileName.section("/", 5, 5);
+    ui->newCXMLFileLine->setText(fileName.section("/", 0, 3) + "/" + newFileName);
+
 
 }
 
@@ -83,6 +89,7 @@ void MainWindow::on_pushButtonBrowse_2_clicked(){
 }
 
 void MainWindow::clearAllDataRetreived(){
+
     imdgUnits.clear();
     containers->clear();
     containersCopy->clear();
@@ -99,97 +106,117 @@ void MainWindow::updateCounters(){
 
 void MainWindow::containerHandler(){
 
-    containerHandlerDialog.clearListWidget();
-    containerHandlerDialog.setContainerList(containersCopy, imdgUnits);
-    containerHandlerDialog.exec();
-
-}
-
-void MainWindow::menuHelpHandler(){
-
-
-    helpWindow.setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
-    helpWindow.showNormal();
-
+    if (imdgUnits.size() > 0) {
+      containerHandlerDialog.clearListWidget();
+      containerHandlerDialog.setContainerList(containersCopy, imdgUnits);
+      containerHandlerDialog.exec();
+    }else{
+        QErrorMessage msg;
+        msg.showMessage("IMDG units have not been loaded yet");
+        msg.exec();
+    }
 
 }
 
 void MainWindow::fillIMDGUnits(){
 
     QMap<QString, int>::iterator                containerIter = containersMap.begin();
-    QMap<QString, int>::const_iterator          containersIndexIter = containersIndexMap.begin();
-    QMap<QString, IMDGunit*>::const_iterator    imdgUnitsIter = imdgUnitsMap.begin();
-
 
     QString             containerEID, str;
-    QString str3;
-    bool yes = false;//debug
+    QString             str3;
+    QString      eidDebug;
     Container           cont;
-    QVector<IMDGunit>   newUnits;
-    IMDGunit*           pUnit = nullptr;
+    QList<IMDGunit>     newUnits;
 
 
+    int          imdgUnitsQty = imdgUnits.size();
     int          containersIndex = 0;
     int          imdgUnitsIndex = 0;
-    int          imdgIndex = 0;
     int          unnoCounter = 0;
     bool         isNextUnitDifferent = false;
     bool         found = false;
-    int          i=0;
-    QString      eidDebug;
+    bool         outOfRange = false;
+    int          insertedQty = 0, deletedQty = 0;
 
 
     for (containerIter; containerIter != containersMap.end()--; ++containerIter){
 
         containerEID = containerIter.key();
         unnoCounter = containerIter.value();
-
         containersIndex = containersIndexMap.value(containerEID);//getting container index in Vector
         cont = containers->at(containersIndex);//take container on index to fill in IMDG unit
         imdgUnitsIndex = imdgUnits.indexOf(imdgUnitsMap[containerEID]);//getting imdg unit index in List
 
+
+        qDebug()<<"before while imdgUnitsIndex="<<imdgUnitsIndex;
+
         if (imdgUnitsIndex > -1) {
-           for (imdgIndex = imdgUnitsIndex; imdgIndex < (imdgUnitsIndex + unnoCounter); ++imdgIndex){
-               if  ( (imdgIndex + 1 ) < imdgUnits.size() ) {
-                   if (imdgUnits.at(imdgIndex + 1 )->getDagoEID().contains(containerEID)) {
-                       isNextUnitDifferent = false;
-                   }else isNextUnitDifferent = true;
-              }
+            qDebug()<<"before while";
 
-                found = imdgUnits.at(imdgIndex)->addWeightToIMDGunit(newUnits, cont, unnoCounter, isNextUnitDifferent);
-                containers->replace(containersIndex, cont);//replacing container's data with changed
+            isNextUnitDifferent = false;
+            outOfRange = false;
 
-                if (!newUnits.isEmpty()){
-                 qDebug()<<"NOT EMPTY";
+            while (!isNextUnitDifferent && !outOfRange){
+                // checking the next imdgUnit
 
-                    for (int index2 = 0 ; index2 < newUnits.size(); ++index2){
-                        newImdgUnit = new IMDGunit(newUnits.at(index2));
-                        imdgUnits.insert(imdgIndex + index2 + 1 , newImdgUnit);
+                if ( (imdgUnitsIndex + 1) < imdgUnitsQty) {
+                    if (imdgUnits.at(imdgUnitsIndex + 1)->getDagoEID().contains(containerEID.trimmed())) {
+                        isNextUnitDifferent = false;
+
+                    } else
+                        isNextUnitDifferent = true;
+
+                }else
+                    outOfRange = true;
+
+
+                    found = imdgUnits.at(imdgUnitsIndex)->addWeightToIMDGunit(newUnits, cont, isNextUnitDifferent, str);
+                    qDebug() << "after addWeightToIMDGuit" << containersIndex << "!!!!!";
+                    if (containersIndex > -1) {
+                        containers->replace(containersIndex, cont);//replacing container's data with data changed
+                    }
+
+                    if (!found){
+                        deletedQty++;
+                        qDebug()<<"********************Not found*"<<imdgUnitsIndex<<"deleting*******************";
+                        imdgUnits.at(imdgUnitsIndex)->removeAllItems();
+                        imdgUnits.at(imdgUnitsIndex)->setValueOnIndex(1,"NULL");
+                        qDebug()<<"size="<<imdgUnits.size();
+                    }
+
+                    if ( (isNextUnitDifferent) && (!newUnits.isEmpty()) ){
+                        qDebug() << "INSERTING UNITS!!!!!!!!!!!!!!!!!!!!!!!";
+                        for (int index = 0 ; index < newUnits.size(); ++index){
+                            IMDGunit *pNewUnits = new IMDGunit;
+                            *pNewUnits = newUnits.at(index).getData();
+                            qDebug()<< "BEFORE insertion"<<newUnits.size();
+                            imdgUnits.insert(imdgUnitsIndex + index + 1, pNewUnits);
+                            qDebug()<<"copying data into the address at index="<<index;
+                            qDebug()<<newUnits.at(index).getDataToString();
+                            qDebug()<<"-------------inserted------------------------->";
+                            insertedQty++;
+                            pNewUnits = nullptr;
+                        }
+
 
                     }
-                    newUnits.clear();
-
-                }
+                    imdgUnitsIndex++;
 
 
-           }//end of inner loop (for)
-            isNextUnitDifferent = false;
-            yes = false;
+            }//end of inner loop (for)
+
         }//end of if
 
 
     }//end of outer loop (for)
 
-
-
-
-str3.clear();
-
+    qDebug()<<"inserted qty="<<insertedQty<<"   and "<<imdgUnits.size() << " and deleted qty ="<<deletedQty;
 
     for (int index=0; index<imdgUnits.size();index++){
-        if (!imdgUnits.at(index)->getUnitValueOnTag(NetWeight).isEmpty()){
-                str3.append(imdgUnits.at(index)->getDataToString() + "\n");
-        }
+
+
+//        str3.append(imdgUnits.at(index)->getDagoEID() + "\n");
+
     }
 
 
@@ -202,18 +229,17 @@ str3.clear();
 
 
 
-
 bool MainWindow::loadCxmlFile(){
 
     QString fileToOpen;
-    fileToOpen = "/home/dmitry/Qt projects/IMDG_filler/tests/IMDG Rotterdam.cxml";//ui->cxmlFileLine->text();
-
+    fileToOpen = ui->cxmlFileLine->text();
+            //"/home/dmitry/IMDG_filler/IMDG Rotterdam.cxml";
 
     //"/home/dmitry/IMDG_filler/IMDG MXATM only.cxml";
 
     //        ui->cxmlFileLine->text();
 
-    //"/home/dmitry/IMDG_filler/tests/IMDG DEBRV no weight.cxml";
+    "/home/dmitry/IMDG_filler/tests/IMDG DEBRV no weight.cxml";
 
 
     /*
@@ -262,7 +288,8 @@ bool MainWindow::loadCxmlFile(){
 
 
             for(int index=DagoID;index<xmlTags.getTagSize();index++){
-                if (index == 7) index ++;//to ingone duplicate of EID, which is met in position 7 of TAGNAME Vector
+                if (index == 7) index ++;//to ingone the duplicating of EID,
+                                         //which is met in position 7 of TAGNAME Vector
                 if (readLine.contains(xmlTags.getTagOpened(xmlTags.getTagEnumName(index)))){
                     aIMDGunitData.append(readLine);
                     continue;
@@ -302,6 +329,7 @@ bool MainWindow::loadCxmlFile(){
             if (!imdgUnitsMap.contains(eid)) {
                 imdgUnitsMap[eid] = newImdgUnit;
             }
+            newImdgUnit = nullptr;
 
 
             eid.clear();
@@ -372,10 +400,10 @@ qDebug()<<"----------------";
 bool MainWindow::loadTextFile(){
 
     QString fileToOpen;
-    fileToOpen = "/home/dmitry/Qt projects/IMDG_filler/tests/IMDG Manifest Rotterdam.txt"; //ui->manifestFileLine->text();
+    fileToOpen = ui->manifestFileLine->text();
+            "/home/dmitry/IMDG_filler/IMDG Manifest Rotterdam.txt";
+    //ui->manifestFileLine->text();
 
-
-    //
     //"/home/dmitry/IMDG_filler/MXATM.txt";
 
     //"/home/dmitry/IMDG_filler/tests/IMDG DEBRV only.txt";
@@ -436,7 +464,7 @@ bool MainWindow::loadTextFile(){
     bool             atEndF = false;
 
     Container*       cont = nullptr;
-    QMap<QString, int>::const_iterator contIter = containersIndexMap.begin();
+
 
 
 
@@ -507,7 +535,7 @@ bool MainWindow::loadTextFile(){
                 }
                 imdgInfoFound = false;
                 unitIMDGdata.clear();
-                cont = 0;
+                cont = nullptr;
                 unnoFound = false;
 
 
@@ -643,6 +671,14 @@ void MainWindow::creatNewCXMLFile(){
     bool containersFound = false;
     bool imdgUnitsCopied = false;
 
+    QString strr;
+
+    for (int i=0; i<imdgUnits.size();++i){
+        strr.append( imdgUnits.at(i)->getDataToString());
+        ui->textEdit_2->setText(strr);
+    }
+
+
     while(in.readLineInto(&readLine)) {
 
 
@@ -661,11 +697,8 @@ void MainWindow::creatNewCXMLFile(){
             // writing down into the file imdgUnits
             for (int index = 0; index < imdgUnits.size();index++){
 
-            //here we check for the NetWeight existance(allows not to write Unno which is not included into IMDG Manifest) and data of imdg unit is not empty
-                if ( !(imdgUnits.at(index)->getDataToString().isEmpty()) &&
-                     !(imdgUnits.at(index)->getUnitValueOnTag(NetWeight).isEmpty()) &&
-                     (imdgUnits.at(index)->isWeightTagExists())
-                    ){
+
+                if ( !(imdgUnits.at(index)->getDataToString().isEmpty()) ){
 
                     out << xmlTags.getTagOpened(Dago) + "\n";
                     out << imdgUnits.at(index)->getDataToString() + "\n";
@@ -693,14 +726,3 @@ void MainWindow::creatNewCXMLFile(){
 
 }
 
-
-void MainWindow::on_pushButton_clicked()
-{
-    QString str;
-
-    for (int index=0; index<imdgUnits.size();index++){
-        str.append(imdgUnits.at(index)->getDataToString() + "\n");
-    }
-
-    ui->textEdit->setText(str);
-}

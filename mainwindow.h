@@ -1,5 +1,3 @@
-//Ver. 5.0
-
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
@@ -25,7 +23,6 @@
 #include <imdgunit.h>
 #include <dialogcontainerhandler.h>
 #include <containerhandlerdialog.h>
-#include <helpwindow.h>
 
 
 QT_BEGIN_NAMESPACE
@@ -46,7 +43,7 @@ private slots:
     void on_pushButtonOpen_clicked();
     void on_pushButtonBrowse_clicked();
     void on_pushButtonBrowse_2_clicked();
-    void on_pushButton_clicked();
+
 
 private:
     Ui::MainWindow*             ui;
@@ -65,7 +62,6 @@ private:
 
     XmlTag                      xmlTags;
     ContainerHandlerDialog      containerHandlerDialog;
-    HelpWindow                  helpWindow;
 
 
 
@@ -78,7 +74,6 @@ private:
     void clearAllDataRetreived();
     void updateCounters();
     void containerHandler();
-    void menuHelpHandler();
 
 
 };

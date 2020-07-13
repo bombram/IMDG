@@ -41,7 +41,6 @@ public:
 
      void appendImdgContainerData(QVector<QString> dataReceived);
      void removeAllItems();
-     void removeAllItems(int from, int to);
 
 
 

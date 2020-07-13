@@ -38,10 +38,13 @@ public:
     TAGNAME getTagEnumName(int index) const ;
     int getTagSize() const;
     int getTagStringPositions(const QString str, TAGNAME tag, int &endPpos);
-   // QList<QString> createList(QVector<QString> dataToInsert, TAGNAME from, TAGNAME to);
+    QList<QString> createList(QVector<QString> dataToInsert, TAGNAME from, TAGNAME to);
 
     //creates string containing opening tag + value + closing tag
     QString makeTagValueString(TAGNAME tag, QString value);
+    int createListTagsValues(TAGNAME[]);
+
+
 
 
 

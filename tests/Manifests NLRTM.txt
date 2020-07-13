@@ -1,0 +1,500 @@
+Printed by agent : MSC NETHERLANDS export International Dangerous Cargo Manifest 
+HAMBURG SUD 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN Lloyds Reg. Nbr. : 9480174 
+Port/Discharge : CHARLESTON, SC 
+Bkg ref/sub: 597197748/1 MSKU5121090 -DV / 20 
+UN2079, DIETHYLENETRIAMINE (-), CLASS 8 (-) , PG : II 
+EmS-Fire / Spill : F-A, S-B MSC-code : 2 
+Emerg.contact: GBK/INFOTRAC ID 104075, GBK/INFOTRAC ID 104075 
+12 Steel drums, non-removable head-1A1(1A1) -> 2340.0000 Kg. 
+Emerg.Phone: 003523233500 
+Control temperature : 0°C , Emergency temperature : 0°C 
+UN2259, TRIETHYLENETETRAMINE (-), CLASS 8 (-) , PG : II 
+EmS-Fire / Spill : F-A, S-B MSC-code : 2 
+Emerg.contact: GBK/INFOTRAC ID 104075, GBK/INFOTRAC ID 104075 
+24 Steel drums, non-removable head-1A1(1A1) -> 4800.0000 Kg. 
+Emerg.Phone: 003523233500 
+Control temperature : 0°C , Emergency temperature : 0°C 
+UN2259, TRIETHYLENETETRAMINE (-), CLASS 8 (-) , PG : II 
+EmS-Fire / Spill : F-A, S-B MSC-code : 2 
+Emerg.contact: GBK/INFOTRAC ID 104075, GBK/INFOTRAC ID 104075 
+4 Steel IBC w ith rigid plastics receptacle-31HA1(31HA1) -> 3900.0000 Kg. 
+Emerg.Phone: 003523233500 
+Control temperature : 0°C , Emergency temperature : 0°C 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature Master's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS ---transport 
+according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+
+Declaration date : 13.05.2020 (DD/MM/YYYY) Original received electronically Page : 1 
+
+
+Printed by agent : MSC NETHERLANDS export International Dangerous Cargo Manifest 
+HAMBURG SUD 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN Lloyds Reg. Nbr. : 9480174 
+Port/Discharge : CHARLESTON, SC 
+Bkg ref/sub: 597197748/1 MSKU5121090 -DV / 20 
+UN2320, TETRAETHYLENEPENTAMINE (-), CLASS 8 (-) , PG : III 
+MARINE POLLUTANT, EmS-Fire / Spill : F-A, S-B MSC-code : 2 
+Emerg.contact: GBK/INFOTRAC ID 104075, GBK/INFOTRAC ID 104075 
+28 Steel drums, non-removable head-1A1(1A1) -> 5740.0000 Kg. 
+Emerg.Phone: 003523233500 
+Control temperature : 0°C , Emergency temperature : 0°C 
+Bkg ref/sub: 598164591/1 TCLU1448786 -DV / 20 
+UN2320, TETRAETHYLENEPENTAMINE (-), CLASS 8 (-) , PG : III 
+MARINE POLLUTANT, EmS-Fire / Spill : F-A, S-B MSC-code : 2 
+Emerg.contact: GBK/INFOTRAC ID 104075, GBK/INFOTRAC ID 104075 
+9 Steel IBC w ith rigid plastics receptacle-31HA1(31HA1) -> 9000.0000 Kg. 
+Emerg.Phone: (1)3523233500 
+Control temperature : 0°C , Emergency temperature : 0°C 
+UN2815, N-AMINOETHYLPIPERAZINE (-), CLASS 8 (6.1) , PG : III , IMDG Code segregation group 18 -Alkalis 
+EmS-Fire / Spill : F-A, S-B MSC-code : 2 
+Emerg.contact: GBK/INFOTRAC ID 104075, GBK/INFOTRAC ID 104075 
+9 Steel IBC w ith rigid plastics receptacle-31HA1(31HA1) -> 8550.0000 Kg. 
+Emerg.Phone: (1)3523233500 
+Control temperature : 0°C , Emergency temperature : 0°C 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature Master's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS ---transport 
+according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+
+Declaration date : 13.05.2020 (DD/MM/YYYY) Original received electronically Page : 2 
+
+
+Printed by agent : MSC NETHERLANDS export International Dangerous Cargo Manifest 
+HAMBURG SUD 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN Lloyds Reg. Nbr. : 9480174 
+Port/Discharge : NEW ORLEANS, LA (USA) 
+Bkg ref/sub: 596445801/1 TBA-687209 -TK / 20 
+UN1193, ETHYL METHYL KETONE (METHYL ETHYL KETONE) (-), CLASS 3 (-) , PG : II 
+Flashpoint : -007°C c.c., EmS-Fire / Spill : F-E, S-D MSC-code : 30 
+Emerg.contact: CHEMTREC, CHEMTREC 
+1 unpackaged(DSC1) -> 18000.0000 Kg. 
+Emerg.Phone: 0018004249300 
+Control temperature : 0°C , Emergency temperature : 0°C 
+Bkg ref/sub: 596618679/1 TBA-760706 -TK / 20 
+UN1193, ETHYL METHYL KETONE (METHYL ETHYL KETONE) (-), CLASS 3 (-) , PG : II 
+Flashpoint : -001°C c.c., EmS-Fire / Spill : F-E, S-D MSC-code : 30 
+Emerg.contact: CHEMTREC CONTR. CCN759256, CHEMTREC CONTR. CCN7592 
+1 unpackaged(DSC1) -> 16000.0000 Kg. 
+Emerg.Phone: 0018004249300 
+Control temperature : 0°C , Emergency temperature : 0°C 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature Master's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS ---transport 
+according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+
+Declaration date : 13.05.2020 (DD/MM/YYYY) Original received electronically Page : 3 
+
+
+Printed by agent : MSC NETHERLANDS export International Dangerous Cargo Manifest 
+HAMBURG SUD 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN Lloyds Reg. Nbr. : 9480174 
+Port/Discharge : VERACRUZ 
+Bkg ref/sub: 596618771/2 TBA-727277 -DV / 20 
+UN1813, POTASSIUM HYDROXIDE, SOLID (-), CLASS 8 (-) , PG : II 
+EmS-Fire / Spill : F-A, S-B MSC-code : 2 
+Emerg.contact: DIETMAR GRENDATSCH, DIETMAR GRENDATSCH 
+1000 Woven plastics bags, w ater-resistant-5H3(5H3) -> 24000.0000 Kg. 
+Emerg.Phone: 35725344274 
+Control temperature : 0°C , Emergency temperature : 0°C 
+Bkg ref/sub: 596618771/1 TBA-727278 -DV / 20 
+UN1813, POTASSIUM HYDROXIDE, SOLID (-), CLASS 8 (-) , PG : II 
+EmS-Fire / Spill : F-A, S-B MSC-code : 2 
+Emerg.contact: DIETMAR GRENDATSCH, DIETMAR GRENDATSCH 
+1000 Woven plastics bags, w ater-resistant-5H3(5H3) -> 24000.0000 Kg. 
+Emerg.Phone: 35725344274 
+Control temperature : 0°C , Emergency temperature : 0°C 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature Master's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS ---transport 
+according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+
+Declaration date : 13.05.2020 (DD/MM/YYYY) Original received electronically Page : 4 
+
+
+Printed by agent : MSC NETHERLANDS export International Dangerous Cargo Manifest 
+MAERSK LINES 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN Lloyds Reg. Nbr. : 9480174 
+Port/Discharge : MOBILE 
+Bkg ref/sub: 607052514/4 CNIU2164722 -DV / 40 
+UN1751, CHLOROACETIC ACID, SOLID (-), CLASS 6.1 (8) , PG : II 
+MARINE POLLUTANT, EmS-Fire / Spill : F-A, S-B MSC-code : 2 
+Emerg.contact: NOURYON, NOURYON 
+22 Woven plastics IBC, coated and w ith liner-13H4(13H4) -> 24640.0000 Kg. 
+Emerg.Phone: 31570679111 
+Control temperature : 0°C , Emergency temperature : 0°C 
+Bkg ref/sub: 607073400/1 MRKU7704387 -DV / 20 
+UN1307, XYLENES (-), CLASS 3 (-) , PG : III 
+Flashpoint : 028°C c.c., MARINE POLLUTANT, EmS-Fire / Spill : F-E, S-D MSC-code : 30 
+Emerg.contact: DO, DO 
+80 Steel drums, non-removable head-1A1(1A1) -> 17600.0000 Kg. 
+Emerg.Phone: 3235751234 
+Control temperature : 0°C , Emergency temperature : 0°C 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature Master's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS ---transport 
+according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+
+Declaration date : 13.05.2020 (DD/MM/YYYY) Original received electronically Page : 5 
+
+
+Printed by agent : MSC NETHERLANDS export International Dangerous Cargo Manifest 
+MAERSK LINES 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN Lloyds Reg. Nbr. : 9480174 
+Port/Discharge : MOBILE 
+Bkg ref/sub: 607086185/1 MRKU8463767 -DV / 20 
+UN2735, AMINES, LIQUID, CORROSIVE, N.O.S. OR POLYAMINES, LIQUID, CORROSIVE, N.O.S.* (triethylene tetramine), CLASS 8 (-) , PG : II 
+EmS-Fire / Spill : F-A, S-B MSC-code : 2 
+Emerg.contact: 24 Hour Emergency Number, 24 Hour Emergency Number 
+80 Steel drums, non-removable head-1A1(1A1) -> 14400.0000 Kg. 
+Emerg.Phone: 17035273887 
+Control temperature : 0°C , Emergency temperature : 0°C 
+Bkg ref/sub: 607082289/1 MSKU5855874 -DV / 20 
+UN3082, ENVIRONMENTALLY HAZARDOUS SUBSTANCE, LIQUID, N.O.S.* (bisphenol a epoxy resin), CLASS 9 (-) , PG : III 
+MARINE POLLUTANT, EmS-Fire / Spill : F-A, S-F MSC-code : 5 
+Emerg.contact: Chemtrec, Chemtrec 
+4 Steel drums, removable head-1A2(1A2) -> 880.0000 Kg. 
+Emerg.Phone: 17035273887 
+Control temperature : 0°C , Emergency temperature : 0°C 
+UN3082, ENVIRONMENTALLY HAZARDOUS SUBSTANCE, LIQUID, N.O.S.* (trichloro(n,n-dimethyloctylamine)boron), CLASS 9 (-) , PG : III 
+MARINE POLLUTANT, EmS-Fire / Spill : F-A, S-F MSC-code : 5 
+Emerg.contact: Chemtrec, Chemtrec 
+64 Plastics drums, removable head-1H2(1H2) -> 1600.0000 Kg. 
+Emerg.Phone: 17035273887 
+Control temperature : 0°C , Emergency temperature : 0°C 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature Master's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS ---transport 
+according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+
+Declaration date : 13.05.2020 (DD/MM/YYYY) Original received electronically Page : 6 
+
+
+Printed by agent : MSC NETHERLANDS export International Dangerous Cargo Manifest 
+MAERSK LINES 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN Lloyds Reg. Nbr. : 9480174 
+Port/Discharge : MOBILE 
+Bkg ref/sub: 607052514/3 MSKU6198780 -DV / 40 
+UN1751, CHLOROACETIC ACID, SOLID (-), CLASS 6.1 (8) , PG : II 
+MARINE POLLUTANT, EmS-Fire / Spill : F-A, S-B MSC-code : 2 
+Emerg.contact: NOURYON, NOURYON 
+22 Woven plastics IBC, coated and w ith liner-13H4(13H4) -> 24640.0000 Kg. 
+Emerg.Phone: 31570679111 
+Control temperature : 0°C , Emergency temperature : 0°C 
+Bkg ref/sub: 607052514/1 MSKU6754451 -DV / 40 
+UN1751, CHLOROACETIC ACID, SOLID (-), CLASS 6.1 (8) , PG : II 
+MARINE POLLUTANT, EmS-Fire / Spill : F-A, S-B MSC-code : 2 
+Emerg.contact: NOURYON, NOURYON 
+22 Woven plastics IBC, coated and w ith liner-13H4(13H4) -> 24640.0000 Kg. 
+Emerg.Phone: 31570679111 
+Control temperature : 0°C , Emergency temperature : 0°C 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature Master's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS ---transport 
+according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+
+Declaration date : 13.05.2020 (DD/MM/YYYY) Original received electronically Page : 7 
+
+
+Printed by agent : MSC NETHERLANDS export International Dangerous Cargo Manifest 
+MAERSK LINES 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN Lloyds Reg. Nbr. : 9480174 
+Port/Discharge : MOBILE 
+Bkg ref/sub: 607052514/2 MSKU6948251 -DV / 40 
+UN1751, CHLOROACETIC ACID, SOLID (-), CLASS 6.1 (8) , PG : II 
+MARINE POLLUTANT, EmS-Fire / Spill : F-A, S-B MSC-code : 2 
+Emerg.contact: NOURYON, NOURYON 
+22 Woven plastics IBC, coated and w ith liner-13H4(13H4) -> 24640.0000 Kg. 
+Emerg.Phone: 31570679111 
+Control temperature : 0°C , Emergency temperature : 0°C 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature Master's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS ---transport 
+according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+
+Declaration date : 13.05.2020 (DD/MM/YYYY) Original received electronically Page : 8 
+
+
+Printed by agent : MSC NETHERLANDS export International Dangerous Cargo Manifest 
+MAERSK LINES 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN Lloyds Reg. Nbr. : 9480174 
+Port/Discharge : VERACRUZ 
+Bkg ref/sub: 597874722/1 HASU4343010 -HC / 40 
+UN3077, ENVIRONMENTALLY HAZARDOUS SUBSTANCES, SOLID, N.O.S.* (zinc (ii) glycinate), CLASS 9 (-) , PG : III 
+EmS-Fire / Spill : F-A, S-F MSC-code : 5 
+Emerg.contact: p & A Maerketing SA, p & A Maerketing SA 
+50 Paper bags, multiw all-5M1(5M1) -> 1250.0000 Kg. 
+Emerg.Phone: +33450485211 
+Control temperature : 0°C , Emergency temperature : 0°C 
+UN3077, ENVIRONMENTALLY HAZARDOUS SUBSTANCES, SOLID, N.O.S.* (zinc (ii) glycinate), CLASS 9 (-) , PG : III 
+EmS-Fire / Spill : F-A, S-F MSC-code : 5 
+Emerg.contact: p & A Maerketing SA, p & A Maerketing SA 
+600 Paper bags, multiw all-5M1(5M1) -> 15000.0000 Kg. 
+Emerg.Phone: +33450485211 
+Control temperature : 0°C , Emergency temperature : 0°C 
+Bkg ref/sub: 598291728/1 MRKU4271093 -HC / 40 
+UN1993, FLAMMABLE LIQUID, N.O.S.* (hexamethydisiloxan), CLASS 3 (-) , PG : II 
+Flashpoint : -001°C c.c., EmS-Fire / Spill : F-E, S-E, limited quantity MSC-code : 31 
+Emerg.contact: SGS Netherland, SGS Netherland 
+1 Fibreboard boxes-4G(4G) (100 Plastic receptacle) -> 0.1000 Kg. 
+Emerg.Phone: +31651496992 
+Control temperature : 0°C , Emergency temperature : 0°C 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature Master's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS ---transport 
+according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+
+Declaration date : 13.05.2020 (DD/MM/YYYY) Original received electronically Page : 9 
+
+
+Printed by agent : MSC NETHERLANDS export International Dangerous Cargo Manifest 
+MAERSK LINES 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN Lloyds Reg. Nbr. : 9480174 
+Port/Discharge : VERACRUZ 
+Bkg ref/sub: 598291728/1 MRKU4271093 -HC / 40 
+UN1993, FLAMMABLE LIQUID, N.O.S.* (hexamethydisiloxan), CLASS 3 (-) , PG : II 
+Flashpoint : -001°C c.c., EmS-Fire / Spill : F-E, S-E, limited quantity MSC-code : 31 
+Emerg.contact: SGS Netherland, SGS Netherland 
+4 Fibreboard boxes-4G(4G) (150 Plastic receptacle) -> 0.1500 Kg. 
+Emerg.Phone: +31651496992 
+Control temperature : 0°C , Emergency temperature : 0°C 
+Bkg ref/sub: 598670506/1 MRSU3666131 -HC / 40 
+UN3077, ENVIRONMENTALLY HAZARDOUS SUBSTANCES, SOLID, N.O.S.* (manganese (ii) glycinate), CLASS 9 (-) , PG : III 
+MARINE POLLUTANT, EmS-Fire / Spill : F-A, S-F MSC-code : 5 
+Emerg.contact: P and A, P and A 
+50 Paper bags, multiw all-5M1(5M1) -> 1250.0000 Kg. 
+Emerg.Phone: +33450485211 
+Control temperature : 0°C , Emergency temperature : 0°C 
+UN3077, ENVIRONMENTALLY HAZARDOUS SUBSTANCES, SOLID, N.O.S.* (zinc (ii) glycinate), CLASS 9 (-) , PG : III 
+MARINE POLLUTANT, EmS-Fire / Spill : F-A, S-F MSC-code : 5 
+Emerg.contact: P and A, P and A 
+300 Paper bags, multiw all-5M1(5M1) -> 7500.0000 Kg. 
+Emerg.Phone: +33450485211 
+Control temperature : 0°C , Emergency temperature : 0°C 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature Master's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS ---transport 
+according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+
+Declaration date : 13.05.2020 (DD/MM/YYYY) Original received electronically Page : 10 
+
+
+Printed by agent : MSC NETHERLANDS export International Dangerous Cargo Manifest 
+MAERSK LINES 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN Lloyds Reg. Nbr. : 9480174 
+Port/Discharge : VERACRUZ 
+Bkg ref/sub: 607092301/1 MSKU5650853 -DV / 20 
+UN1950, AEROSOLS (WITH A MAXIMUM CAPACITY OF 1 LITRE) (-), CLASS 2.1 (-) , PG : EmS-
+Fire / Spill : F-D, S-U MSC-code : 28 
+Emerg.contact: DO, DO 
+6 Fibreboard boxes-4G(4G) -> 21.2520 Kg. 
+Emerg.Phone: 4963013206803 
+Control temperature : 0°C , Emergency temperature : 0°C 
+Bkg ref/sub: 910668179/1 NPCU1251065 -TK / 20 
+UN3082, ENVIRONMENTALLY HAZARDOUS SUBSTANCE, LIQUID, N.O.S.* (neodecanoic acid vnyl ester), CLASS 9 (-) , PG : III 
+MARINE POLLUTANT, EmS-Fire / Spill : F-A, S-F MSC-code : 5 
+Emerg.contact: CARECHEM24, CARECHEM24 
+1 PORTABLE TANK (FOR CLASS 3 TO 9)(T22) -> 20850.0000 Kg. 
+Emerg.Phone: +4401235239670 
+Control temperature : 0°C , Emergency temperature : 0°C 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature Master's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS ---transport 
+according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+
+Declaration date : 13.05.2020 (DD/MM/YYYY) Original received electronically Page : 11 
+
+
+Printed by agent : MSC NETHERLANDS export International Dangerous Cargo Manifest 
+MAERSK LINES 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN Lloyds Reg. Nbr. : 9480174 
+Port/Discharge : VERACRUZ 
+Bkg ref/sub: 596846910/1 TGBU5365590 -HC / 40 
+UN1993, FLAMMABLE LIQUID, N.O.S.* (hexamethyldisiloxane), CLASS 3 (-) , PG : II 
+Flashpoint : -001°C c.c., EmS-Fire / Spill : F-E, S-E, limited quantity MSC-code : 31 
+Emerg.contact: WESSEL DON, WESSEL DON 
+1 Fibreboard boxes-4G(4G) (240 Metal receptacle) -> 0.2400 Kg. 
+Emerg.Phone: 31107541616 
+Control temperature : 0°C , Emergency temperature : 0°C 
+UN1993, FLAMMABLE LIQUID, N.O.S.* (hexamethyldisiloxane), CLASS 3 (-) , PG : II 
+Flashpoint : -001°C c.c., EmS-Fire / Spill : F-E, S-E, limited quantity MSC-code : 31 
+Emerg.contact: WESSEL DON, WESSEL DON 
+3 Fibreboard boxes-4G(4G) (2160 Metal receptacle) -> 2.1600 Kg. 
+Emerg.Phone: 31107541616 
+Control temperature : 0°C , Emergency temperature : 0°C 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature Master's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS ---transport 
+according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+
+Declaration date : 13.05.2020 (DD/MM/YYYY) Original received electronically Page : 12 
+
+
+Printed by agent : MSC NETHERLANDS export International Dangerous Cargo Manifest 
+MSC-MEDITERRANEAN SHIPPING CY 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN Lloyds Reg. Nbr. : 9480174 
+Port/Discharge : ALTAMIRA 
+Bkg ref/sub: 459IDU0010879/1 FCIU4472880 -DV / 20 
+UN2045, ISOBUTYL ALDEHYDE ( ISOBUTYRALDEHYDE ) (-), CLASS 3 (-) , PG : II 
+Flashpoint : -5°C c.c., EmS-Fire / Spill : F-E, S-D MSC-code : 30 
+Emerg.contact: OXEA GmbH, OXEA GMBH 
+80 Steel drums, non-removable head-1A1(1A1) -> 12800.0000 Kg. 
+Emerg.Phone: 01-800-00-214-00 
+Bkg ref/sub: 356SL1582634/1 RLTU1002681 -TK / 20 
+UN2735, AMINES, LIQUID, CORROSIVE, N.O.S. OR POLYAMINES, LIQUID, CORROSIVE, N.O.S.* ((amines, c12-14-alkyldimethyl)), CLASS 8 (-) , PG : II , IMDG Code segregation group 18 -Alkalis 
+Flashpoint : 0°C c.c., MARINE POLLUTANT, EmS-Fire / Spill : F-A, S-B MSC-code : 2 
+Emerg.contact: KAO CHEMICALS GMBH, KAO CHEMICALS GMBH 
+1 unpackaged(NE) -> 17020.0000 Kg. 
+Emerg.Phone: +44 (0)186540829 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature Master's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS ---transport 
+according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+
+Declaration date : 13.05.2020 (DD/MM/YYYY) Original received electronically Page : 13 
+
+
+Printed by agent : MSC NETHERLANDS International Dangerous Cargo Manifest 
+MSC-MEDITERRANEAN SHIPPING CY 
+export 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN 
+Port/Discharge : CHARLESTON, SC 
+Lloyds Reg. Nbr. : 9480174 
+Bkg ref/sub: 018LH1087609/1 FTAU1421508 -DV / 20 
+UN1099, ALLYL BROMIDE (-), CLASS 3 (6.1) , PG : I 
+Flashpoint : -1°C c.c., MARINE POLLUTANT, EmS-Fire / Spill : F-E, S-D MSC-code : 30 
+Emerg.contact: VYNOVA, J PIEN 
+72 Plastics receptacle w ith outer steel drum-6HA1(6HA1) -> 18000.0000 Kg. 
+Emerg.Phone: 33389384688 
+Bkg ref/sub: 459IHA0206111/1 TCNU2920092 -HC / 40 
+UN3268, SAFETY DEVICES, (-), CLASS 9 (-) , PG : EmS-
+Fire / Spill : F-B, S-X MSC-code : 22 
+Emerg.contact: CHEMTREC, CCN869606 
+55 Fibreboard boxes-4G(4G) -> 624.2000 Kg. 
+Emerg.Phone: 001-703-527-3887 
+UN3268, SAFETY DEVICES, (-), CLASS 9 (-) , PG : EmS-
+Fire / Spill : F-B, S-X MSC-code : 22 
+Emerg.contact: CHEMTREC, CCN869606 
+71 Fibreboard boxes-4G(4G) -> 562.5000 Kg. 
+Emerg.Phone: 001-703-527-3887 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS 
+transport according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+Master's name + Signature 
+---
+
+
+Declaration date : 13.05.2020 (DD/MM/YYYY) Original received electronically Page : 14 
+
+
+Printed by agent : MSC NETHERLANDS export International Dangerous Cargo Manifest 
+MSC-MEDITERRANEAN SHIPPING CY 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN Lloyds Reg. Nbr. : 9480174 
+Port/Discharge : VERACRUZ 
+Bkg ref/sub: 459IDU0010621/1 CAIU3107946 -DV / 20 
+UN2529, ISOBUTYRIC ACID (-), CLASS 3 (8) , PG : III 
+Flashpoint : +55°C c.c., EmS-Fire / Spill : F-E, S-C MSC-code : 29 
+Emerg.contact: OXEA GmbH, OXEA GMBH 
+80 Plastics drums, non-removable head-1H1(1H1) -> 15600.0000 Kg. 
+Emerg.Phone: 040123456 
+Bkg ref/sub: 459IDU0010602/1 DRYU2503455 -DV / 20 
+UN1866, RESIN SOLUTION* (-), CLASS 3 (-) , PG : III 
+Flashpoint : 31°C c.c., EmS-Fire / Spill : F-E, S-E MSC-code : 31 
+Emerg.contact: Allnex Netherlands B.V., DUTY OFFICER 
+80 Steel drums, non-removable head-1A1(1A1) -> 16000.0000 Kg. 
+Emerg.Phone: +44 (0) 1235 239 
+Bkg ref/sub: 356SL1591257/1 MEDU1048146 -DV / 20 
+UN1950, AEROSOLS (WITH A MAXIMUM CAPACITY OF 1 LITRE) (-), CLASS 2.1 (-) , PG : EmS-
+Fire / Spill : F-D, S-U, limited quantity MSC-code : 28 
+Emerg.contact: royal sanders, ROYAL SANDERS 
+4182 Fibreboard boxes-4G(4G) (25092 Metal receptacle) -> 1606.0000 Kg. 
+Emerg.Phone: 0031665078094 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature Master's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS ---transport 
+according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+
+Declaration date : 13.05.2020 (DD/MM/YYYY) Original received electronically Page : 15 
+
+
+Printed by agent : MSC NETHERLANDS export International Dangerous Cargo Manifest 
+MSC-MEDITERRANEAN SHIPPING CY 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN Lloyds Reg. Nbr. : 9480174 
+Port/Discharge : VERACRUZ via ROTTERDAM 
+Bkg ref/sub: MUM66107/1 MEDU3809440 -DV / 20 
+UN1397, ALUMINIUM PHOSPHIDE (-), CLASS 4.3 (6.1) , PG : I 
+MARINE POLLUTANT, EmS-Fire / Spill : F-G, S-N MSC-code : 40 
+Emerg.contact: Mr. Rahul Bhosale, +91 9819278309 
+600 Fibreboard boxes-4G(4G) (7200 Tin) -> 10071.8000 Kg. 
+Emerg.Phone: +91 9819278309 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature Master's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS ---transport 
+according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+
+Declaration date : 13.05.2020 (DD/MM/YYYY) Original received electronically Page : 16 
+
+
+Printed by agent : MSC NETHERLANDS export International Dangerous Cargo Manifest 
+MSC-MEDITERRANEAN SHIPPING CY 
+Vessel : MSC ALICANTE NG020W Port/Loading : ROTTERDAM Nationality : LIBERIAN Lloyds Reg. Nbr. : 9480174 
+Port/Discharge : VERACRUZ 
+Bkg ref/sub: 459IDU0010875/1 MSCU5133363 -HC / 40 
+UN2659, SODIUM CHLOROACETATE (-), CLASS 6.1 (-) , PG : III 
+MARINE POLLUTANT, EmS-Fire / Spill : F-A, S-A MSC-code : 1 
+Emerg.contact: CABB GmbH (CCN204544), CABB GMBH (CCN204544) 
+20 Rigid plastics IBC, freestanding-31H2(31H2) -> 20000.0000 Kg. 
+Emerg.Phone: 040123456 
+Bkg ref/sub: 459IDU0010873/1 MSCU5954374 -DV / 40 
+UN2659, SODIUM CHLOROACETATE (-), CLASS 6.1 (-) , PG : III 
+MARINE POLLUTANT, EmS-Fire / Spill : F-A, S-A MSC-code : 1 
+Emerg.contact: CABB GmbH (CCN204544), CABB GMBH (CCN204544) 
+20 Woven plastics IBC, coated and w ith liner-13H4(13H4) -> 20000.0000 Kg. 
+Emerg.Phone: +1-703-527-3887 
+Bkg ref/sub: 459IDU0010606/1 MSDU7709298 -HC / 40 
+UN1866, RESIN SOLUTION* (-), CLASS 3 (-) , PG : III 
+Flashpoint : 27°C c.c., EmS-Fire / Spill : F-E, S-E MSC-code : 31 
+Emerg.contact: Allnex Germany GmbH (ID#ED29003275), ALLNEX GERMANY 
+92 Steel drums, non-removable head-1A1(1A1) -> 18400.0000 Kg. 
+Emerg.Phone: 040123456 
+I hereby declare that the contents of this consignment are fully and accurately described above by the proper shipping Preparer's name + Signature Master's name + Signature 
+name(s), and are classified, packaged, marked and labelled/placarded, and are in all respects in proper condition for MILOS ---transport 
+according to applicable international, national governmental regulations and to the IMDG code. 
+MSC Mediterranean Shipping Company S.A. –Chemin Rieu 12/14 –1208 Geneva -Sw itzerland 
+Senior Director Chemical Cargo Transports : Cdt., Dirk Vande Velde 
+IDE for MSC Mediterranean Shipping Company S.A. : CHE 111.954.803 
+
